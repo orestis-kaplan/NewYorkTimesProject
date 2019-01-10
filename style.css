@@ -42,7 +42,7 @@ header{
   float: right;
 }
 .title{
-    width: 70%;
+    width: 68%;
     height: 26px;
     text-align: center;
     position: relative;
@@ -136,10 +136,8 @@ header{
 .image_captions small{
   font-size:0.8125rem;
 }
-.text_content{
-  margin: 0 auto;
-  width: 25%;
-}
+
+/* Widget section */
 .widget_section{
   clear: both;
   width: 37%;
@@ -186,3 +184,33 @@ header{
   margin: auto;
   padding-left: 23%;
 }
+
+/* Main content */
+
+.text_content{
+  color: #333;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 630px;
+}
+
+.text_content p{
+  margin-bottom: 23px;
+}
+
+.advertise{
+  width: 100%;
+  overflow: hidden;
+  transform: scaleX(4);
+  background-color: #ccc;
+  height: 270px;
+  margin-bottom: 20px;
+}
+
+/* .ad-content{
+  height: 152px;
+  background-color: #ccc;
+  position: relative;
+} */
