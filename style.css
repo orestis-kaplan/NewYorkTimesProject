@@ -42,7 +42,7 @@ header{
   float: right;
 }
 .title{
-    width: 74%;
+    width: 64%;
     height: 26px;
     text-align: center;
     position: relative;
@@ -91,5 +91,51 @@ header{
 
 .header_link,.title,.hrb{
 }
+
+/* Content section */
 .container{
+
+}
+
+.container-title{
+  margin: 30px auto 10px auto;
+  width: 46%;
+}
+
+.container-title h1 {
+  color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.8125rem;
+    line-height: 2.125rem;
+    margin: 0 20px 1rem;
+    position: relative;
+    width: 376px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: -1;
+}
+
+.main_image{
+  margin: 0 auto;
+  width: 60%;
+}
+
+#image{
+    width: 100%;
+}
+
+.image_captions, .image_captions small{
+  color: #666;
+}
+
+.image_captions small{
+  font-size: 14px;
+}
+
+.text_content{
+  margin: 0 auto;
+  width: 25%;
 }
