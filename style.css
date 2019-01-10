@@ -3,12 +3,26 @@ html,body{
 }
 header{
   height: 42px;
+  background-color: white;
 }
-.hlb{
-  margin-left:15%;
+.first_header_container{
+  background-color: inherit;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+}
+.header_container{
+  background-color: inherit;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header_left_buttons,.menu_icon,.search_icon,.header_link,.title,.hrb,.hlb{
+  display: inline-block;
 }
 .header_left_buttons{
-  float: left;
   background-color: white;
   border: none;
   padding: 8px;
@@ -22,9 +36,60 @@ header{
     vertical-align: sub;
     width: 16px;
 }
+.hrb{
+  position: relative;
+  top: 6px;
+  float: right;
+}
+.title{
+    width: 74%;
+    height: 26px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.title svg {
+  width: 195px;
+}
+.header_link{
+    position: relative;
+    left: 12px;
+    font-size: 14.25px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+
+}
+.header_link a{
+  text-decoration: none;
+  color: black;
+}
+.header_link a:hover{
+  text-decoration: underline;
+}
+.hrb button{
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    -webkit-transition: ease 0.6s;
+    transition: ease 0.6s;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    -webkit-letter-spacing: 0.05em;
+    -moz-letter-spacing: 0.05em;
+    -ms-letter-spacing: 0.05em;
+    letter-spacing: 0.05em;
+    line-height: 11px;
+    padding: 8px 9px 6px;
+    text-transform: uppercase;
+}
+
 .header_link,.title,.hrb{
-  float:left;
 }
 .container{
-  clear: left;
 }
