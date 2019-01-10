@@ -42,7 +42,7 @@ header{
   float: right;
 }
 .title{
-    width: 64%;
+    width: 70%;
     height: 26px;
     text-align: center;
     position: relative;
@@ -120,22 +120,69 @@ header{
 
 .main_image{
   margin: 0 auto;
-  width: 60%;
+  width: 63%;
 }
 
 #image{
     width: 100%;
+    height: auto;
 }
-
+.image_captions{
+  font-size: 0.9375rem;
+}
 .image_captions, .image_captions small{
   color: #666;
 }
-
 .image_captions small{
-  font-size: 14px;
+  font-size:0.8125rem;
 }
-
 .text_content{
   margin: 0 auto;
   width: 25%;
+}
+.widget_section{
+  clear: both;
+  width: 37%;
+  margin: 0 auto;
+}
+.author {
+  margin: 5% auto 15px auto;
+  font-size: 0.9375rem;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
+  color: black;
+  text-decoration-color: #ccc;
+}
+.author a{
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
+  color: #333;
+  text-decoration-color: #ccc;
+  font-size: 100%;
+}
+.widget_position{
+    list-style: none;
+    display: -webkit-flex;
+  }
+  #time_author {
+    font-size: 0.8125rem;
+    width: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    display: inline-block;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.125rem;
+  }
+.widgets ul{
+  display: inline-flex;
+  list-style: none;
+  float: right;
+}
+.widgets ul li{
+  padding:0 16px;
+}
+#author_social{
+  margin: auto;
+  padding-left: 23%;
 }
