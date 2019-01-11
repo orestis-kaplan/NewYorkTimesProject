@@ -10,6 +10,7 @@ header{
   position: fixed;
   width: 100%;
   border-bottom: 1px solid #e2e2e2;
+  z-index: 1;
 }
 .header_container{
   background-color: inherit;
@@ -313,7 +314,7 @@ header{
   text-decoration: underline;
 }
 .thumbs-img{
-  width: 272px;
+  width: 249px; /* Needs fixes for differnt screens */
 }
 .thumbs-img img{
   width: 100%;
@@ -327,23 +328,41 @@ header{
   justify-content: space-around;
 
 }
-.recommended{
-  margin-left: 56%;
-  width: 17%;
-  position: absolute;
-}
-.recommended ul li {
-  list-style:none;
-}
+
+/* Recommendes section */
+
 .recommended  {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.375rem;
   border-top: 1px solid rgb(0, 0, 0);
-  padding: 15px;
-  z-index: -1;
+  margin-left: 56%;
+  padding: 15px 0 15px 0;
+  position: absolute;
+  width: 17%;
 }
+
+.recommended .spacing{
+  margin-bottom: 16px;
+}
+
+.recommended ul li {
+  border-top: 1px solid #ccc;
+  list-style:none;
+  padding: 15px 0;
+}
+
+.recommended ul li a{
+  color: black;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  text-decoration: none;
+}
+
+.recommended ul li a:hover{
+  color: rgb(102, 102, 102);
+}
+
 .header_article{
   display: flex;
   margin-top: 14%;
@@ -353,6 +372,7 @@ header{
   width: 76%;
   border-top: 1px solid rgb(0, 0, 0);
   padding-top: 14px;
+  padding-bottom: 10px;
 }
 .thumb_captions{
   color: rgb(153, 153, 153);
@@ -377,5 +397,5 @@ header{
   display: block;
 }
 .thumbs-articles{
-  width: 79%;
+  width: 76%;  /* Needs fixes for differnt screens */
 }
