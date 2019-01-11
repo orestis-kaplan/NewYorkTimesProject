@@ -299,6 +299,9 @@ header{
   background-color: white;
   border: 1px solid #eee;
 }
+
+/* More articles section */
+
 .more-articles{
   width: 70%;
   clear: both;
@@ -325,45 +328,9 @@ header{
   width: 76%;
 }
 .thumbnails{
-  width: 100%;
   display: flex;
-}
-.thumbnails figure {
-  margin-right: 133px;
-}
-
-/* Recommendes section */
-
-.recommended  {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.375rem;
-  border-top: 1px solid rgb(0, 0, 0);
-  margin-left: 56%;
-  padding: 15px 0 15px 0;
-  position: absolute;
-  width: 17%;
-}
-
-.recommended .spacing{
-  margin-bottom: 16px;
-}
-
-.recommended ul li {
-  border-top: 1px solid #ccc;
-  list-style:none;
-  padding: 15px 0;
-}
-
-.recommended ul li a{
-  color: black;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  text-decoration: none;
-}
-
-.recommended ul li a:hover{
-  color: rgb(102, 102, 102);
+  justify-content: space-between;
+  width: 100%;
 }
 
 .header_article{
@@ -403,6 +370,43 @@ header{
 .thumbs-articles{
   width: 76%;  /* Needs fixes for differnt screens */
 }
+
+/* Recommendes section */
+
+.recommended  {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  border-top: 1px solid rgb(0, 0, 0);
+  margin-left: 56%;
+  padding: 15px 0 15px 0;
+  position: absolute;
+  width: 17%;
+}
+
+.recommended .spacing{
+  margin-bottom: 16px;
+}
+
+.recommended ul li {
+  border-top: 1px solid #ccc;
+  list-style:none;
+  padding: 15px 0;
+}
+
+.recommended ul li a{
+  color: black;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  text-decoration: none;
+}
+
+.recommended ul li a:hover{
+  color: rgb(102, 102, 102);
+}
+
+/* Picks Editor section */
+
 .editor_title{
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 14px;
@@ -425,7 +429,54 @@ header{
   vertical-align: middle;
   width: 184px;
 }
+
+/* Footer section */
+
 .site-map{
   margin: 0 auto;
   width: 76%;
+}
+
+.ny-image{
+  margin-bottom: 14px;
+}
+
+.go-home{
+  font-size: 12px;
+  float: right;
+  padding-top: 12px;
+}
+
+.go-home a{
+  color: rgb(98, 136, 165);
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.sitemap-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sitemap-content section{
+  margin-right: 15px;
+}
+
+.sitemap-content section h3{
+  color: black;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.sitemap-content section ul li{
+  list-style: none;
+  padding-top: 8px;
+}
+
+.sitemap-content section ul li a{
+  color: black;
+  font-family: nyt-franklin;
+  text-decoration: none;
 }
