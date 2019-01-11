@@ -43,6 +43,9 @@ header{
   top: 6px;
   float: right;
 }
+.hrb button:hover{
+      background-color: #326891;
+}
 .title{
     width: 68%;
     height: 26px;
@@ -435,7 +438,14 @@ header{
   margin: 0 auto;
   width: 76%;
 }
-
+.site-map::before{
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
+}
 .ny-image{
   margin-bottom: 14px;
 }
@@ -478,4 +488,61 @@ header{
   color: black;
   font-family: nyt-franklin;
   text-decoration: none;
+  font-size: 14px;
+}
+.sitemap-content section ul li a:hover{
+  text-decoration: underline;
+}
+.footer_lists li{
+  display: inline-block;
+}
+.subscribe-content{
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 17px;
+}
+#first_set_sub_links li a{
+  font-size: 12px;
+  font-family: nyt-franklin;
+}
+#first_set_sub_links{
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 4px;
+}
+#second_set_sub_links{
+  padding-top: 4px;
+}
+#second_set_sub_links li a{
+  font-size: 12px;
+
+  font-family: nyt-franklin;
+}
+/* footer styling */
+
+footer{
+  border-top: 1px solid rgb(226, 226, 226);
+  margin: 14px auto;
+  width: 76%;
+  text-align: center;
+}
+.footer_lists{
+  padding-top: 0.5%;
+}
+.footer_lists li a {
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  text-decoration: none;
+  padding-right: 7px;
+}
+.footer_lists li a:hover{
+  text-decoration: underline;
+}
+#subscribe_icon_list li a {
+  font-size: 20px;
+}
+#subscribe_icon_list li a svg{
+  width: 15px;
+  height: 15px;
+}
+.subscribe_icons{
+  margin-right: 7px;
 }
