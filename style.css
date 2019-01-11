@@ -129,6 +129,7 @@ header{
 }
 .image_captions{
   font-size: 0.9375rem;
+  margin-right: 31%;
 }
 .image_captions, .image_captions small{
   color: #666;
@@ -193,7 +194,7 @@ header{
   font-size: 19px;
   line-height: 1.5;
   margin: 0 auto;
-  width: 630px;
+  width: 51%; /* Improve this rule for responsive content (Orestis width: 41%)  */
 }
 
 .text_content p{
@@ -235,4 +236,53 @@ header{
 .video{
   width: 100%;
   height: 100%;
+}
+
+/* More articles section */
+
+.bottom-comment{
+  color: #999;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-size: 12px;
+}
+
+.bottom-comment span{
+  display: block;
+  margin-bottom: 30px;
+}
+
+.read-comments-btn{
+  float: left;
+  width: 328px;
+}
+
+.bottom-buttons button{
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 4px;
+  color: white;
+  padding: 13px 0;
+  width: 100%;
+}
+
+.bottom-widgets{
+  float: right;
+}
+
+.icons{
+  background-color: #eee;
+  border-radius: 50%;
+  margin-right: 9px;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.icons:hover{
+  background-color: white;
+  border: 1px solid black;
+}
+
+.more-articles{
+  clear: both;
 }
