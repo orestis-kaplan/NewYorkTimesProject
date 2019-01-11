@@ -329,7 +329,7 @@ header{
   display: flex;
 }
 .thumbnails figure {
-  margin-right: 133px;
+  margin-right: 133px; /*margin-right: 9px FOR SMALLER screens*/
 }
 
 /* Recommendes section */
