@@ -104,7 +104,6 @@ header{
     font-style: italic;
     font-size: 1.8125rem;
     line-height: 2.125rem;
-    margin: 0 20px 1rem;
     position: relative;
     width: 376px;
     max-width: 600px;
@@ -206,7 +205,7 @@ strong { font-weight: bold; }
 .figure figcaption{
   color: #666;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  margin: 5px 0px 50px 0;
+  margin: 5px 0 50px 0;
   text-align: left;
   line-height: 13px;
 }
