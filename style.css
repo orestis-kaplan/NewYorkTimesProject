@@ -21,7 +21,7 @@ header{
   margin-right: auto;
   margin-left: auto;
 }
-.header_left_buttons,.menu_icon,.search_icon,.header_link,.title,.hrb,.hlb{
+.header_left_buttons,.menu_icon,.search_icon,.headerLink,.title,.hrb,.hlb{
   display: inline-block;
 }
 .header_left_buttons{
@@ -56,7 +56,7 @@ header{
 .title svg {
   width: 195px;
 }
-.header_link{
+.headerLink{
     position: relative;
     left: 12px;
     font-size: 14.25px;
@@ -65,13 +65,12 @@ header{
     text-transform: uppercase;
     letter-spacing: 0.7px;
     line-height: 19px;
-
 }
-.header_link a{
+.headerLink a{
   text-decoration: none;
   color: black;
 }
-.header_link a:hover{
+.headerLink a:hover{
   text-decoration: underline;
 }
 .hrb button{
@@ -92,14 +91,6 @@ header{
     line-height: 11px;
     padding: 8px 9px 6px;
     text-transform: uppercase;
-}
-
-.header_link,.title,.hrb{
-}
-
-/* Content section */
-.container{
-
 }
 
 .container-title{
@@ -142,7 +133,7 @@ header{
 .image_captions small{
   font-size:0.8125rem;
 }
-
+strong { font-weight: bold; }
 /* Widget section */
 .widget_section{
   clear: both;
@@ -205,16 +196,6 @@ header{
 
 .text_content p{
   margin-bottom: 23px;
-}
-
-.advertise{
-  width: 100%;
-  overflow: hidden;
-  transform: scaleX(4);
-  background-color: #ccc;
-  height: 270px;
-  margin-bottom: 20px;
-  z-index: -1;
 }
 
 /*Video Content*/
@@ -322,9 +303,6 @@ header{
 }
 .thumbs-img{
   width: 249px; /* Needs fixes for differnt screens */
-}
-.thumbs-img img{
-  width: 100%;
 }
 .editors-picks{
   clear: both;
