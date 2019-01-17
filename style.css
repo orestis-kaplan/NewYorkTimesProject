@@ -95,6 +95,7 @@ header{
 
 .container-title{
   width: 46%;
+  margin: 0 auto;
 }
 
 .container-title h1 {
