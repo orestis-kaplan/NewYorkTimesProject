@@ -224,7 +224,9 @@ strong { font-weight: bold; }
   width: 100%;
   height: 100%;
 }
-
+figure{
+  width: 249px;
+}
 /* More articles section */
 
 .bottom-comment{
@@ -300,9 +302,7 @@ strong { font-weight: bold; }
 .more-articles h2 a:hover{
   text-decoration: underline;
 }
-.thumbs-img{
-  width: 249px; /* Needs fixes for differnt screens */
-}
+
 .editors-picks{
   clear: both;
   width: 76%;
