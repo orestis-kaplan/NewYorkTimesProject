@@ -413,6 +413,7 @@ strong { font-weight: bold; }
 
 .site-map{
   margin: 0 auto;
+  width: 76%;
 }
 .site-map::before{
   content: "";
