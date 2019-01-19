@@ -224,9 +224,7 @@ strong { font-weight: bold; }
   width: 100%;
   height: 100%;
 }
-figure{
-  width: 249px;
-}
+
 /* More articles section */
 
 .bottom-comment{
@@ -286,7 +284,9 @@ figure{
 }
 
 /* More articles section */
-
+.thumbs-img{
+  width: 249px;
+}
 .more-articles{
   width: 70%;
   clear: both;
@@ -413,7 +413,6 @@ figure{
 
 .site-map{
   margin: 0 auto;
-  width: 76%;
 }
 .site-map::before{
   content: "";
