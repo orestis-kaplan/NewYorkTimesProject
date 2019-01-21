@@ -1,1 +1,5 @@
-# NewYorkTimesProject
+# The New York Times Project
+
+In this project we created a copy of the The New York Times page to apply the following concepts:
+
+* The use of `position` property in CSS to organize different sections on the page
